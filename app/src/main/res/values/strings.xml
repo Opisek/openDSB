@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">OpenDSBmobile</string>
+    <string name="app_name" translatable="false">FreeDSB</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -105,6 +105,7 @@
 
     <!-- Example settings for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_header_class">Class</string>
 
     <string name="pref_title_new_message_notifications">New message notifications</string>
 
@@ -112,6 +113,9 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_title_class_filtering">Class Filtering</string>
+    <string name="pref_title_class">Class</string>
 
     <string name="title_activity_content_view">Contents</string>
 
@@ -130,8 +134,8 @@
     <string name="share_news">Share news to …</string>
     <string name="login_failed">Login failed</string>
     <string name="dsb_license_expired">Your provider\'s DSB license expired!</string>
-    <string name="account_type_dsb" translatable="false">com.kai_jan_57.opendsbmobile.DSB</string>
-    <string name="content_authority" translatable="false">com.kai_jan_57.opendsbmobile.provider</string>
+    <string name="account_type_dsb" translatable="false">com.opisek.freedsb.DSB</string>
+    <string name="content_authority" translatable="false">com.opisek.freedsb.provider</string>
     <string name="cache_outdated">An outdated previously cached version is shown.</string>
     <string name="search_hint">Search content</string>
     <string name="channel_name">Content updates</string>

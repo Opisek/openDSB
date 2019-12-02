@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="class_filtering"
+        android:title="@string/pref_title_class_filtering" />
+    <EditTextPreference
+        android:defaultValue="10B"
+        android:key="class"
+        android:dependency="class_filtering"
+        android:title="@string/pref_title_class" />/
+
+</PreferenceScreen>

@@ -28,6 +28,7 @@
     <string name="pref_header_general">Allgemein</string>
     <string name="pref_header_data_sync">Daten &amp; Synchronisation</string>
     <string name="pref_header_notifications">Benachrichtigungen</string>
+    <string name="pref_header_class">Klasse</string>
     <string name="pref_title_sync_frequency">Synchronisationshäufigkeit</string>
     <string name="pref_title_system_sync_settings">Synchronisationseinstellungen des Systems</string>
     <string name="pref_title_theme">Design</string>
@@ -75,4 +76,7 @@
     <string name="pref_title_parser_enabled">HTML-Tabellen analysieren</string>
     <string name="pref_appearance_restart_notice">Wenn dein gewähltes Design nicht übernommen wurde, starte das Programm bitte neu.</string>
     <string name="app_description">OpenDSBmobile, eine Open Source DSBmobile Inhaltsanzeige</string>
+
+    <string name="pref_title_class_filtering">Klassenfilterung</string>
+    <string name="pref_title_class">Klasse</string>
 </resources>

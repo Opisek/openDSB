@@ -40,15 +40,6 @@
         android:orientation="vertical"
         android:soundEffectsEnabled="true">
 
-        <ImageView
-            android:id="@+id/imageViewPreview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/ic_item_downloading"
-            tools:ignore="ContentDescription" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

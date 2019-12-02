@@ -6,7 +6,7 @@
         android:title="@string/pref_intent_account"
         android:persistent="false" >
         <intent
-            android:action="com.kai_jan_57.opendsbmobile.settings.MAIN"
+            android:action="com.opisek.freedsb.settings.MAIN"
             android:targetClass=".activities.SettingsActivity.class" />
     </PreferenceScreen>
 

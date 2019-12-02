@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kai_jan_57.opendsbmobile">
+    package="com.opisek.freedsb">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
@@ -30,14 +30,14 @@
             android:name=".activities.ContentViewerActivity"
             android:label="@string/title_activity_content_view"
             android:parentActivityName=".activities.MainActivity"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kai_jan_57.opendsbmobile.activities.MainActivity" />
+                android:value="com.opisek.freedsb.activities.MainActivity" />
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
@@ -47,12 +47,12 @@
             android:label="@string/title_activity_settings"
             android:parentActivityName=".activities.MainActivity">
             <intent-filter>
-                <action android:name="com.kai_jan_57.opendsbmobile.settings.MAIN" />
+                <action android:name="com.opisek.freedsb.settings.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kai_jan_57.opendsbmobile.activities.MainActivity" />
+                android:value="com.opisek.freedsb.activities.MainActivity" />
         </activity>
         <activity
             android:name=".activities.LoginActivity"
@@ -62,7 +62,7 @@
             <!-- android:windowSoftInputMode="adjustResize|adjustPan" -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kai_jan_57.opendsbmobile.activities.MainActivity" />
+                android:value="com.opisek.freedsb.activities.MainActivity" />
         </activity>
         <activity
             android:name=".activities.MainActivity"
@@ -78,7 +78,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.kai_jan_57.opendsbmobile.provider"
+            android:authorities="com.opisek.freedsb.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -87,7 +87,7 @@
         </provider>
         <provider
             android:name=".sync.DsbProvider"
-            android:authorities="com.kai_jan_57.opendsbmobile.provider"
+            android:authorities="com.opisek.freedsb.provider"
             android:exported="false"
             android:grantUriPermissions="true" />
 

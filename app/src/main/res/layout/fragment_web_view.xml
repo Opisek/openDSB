@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         tools:context=".fragments.contentviewer.WebViewFragment" />
 
-    <com.kai_jan_57.opendsbmobile.widgets.TopProgressBar
+    <com.opisek.freedsb.widgets.TopProgressBar
         android:id="@+id/webViewProgressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"

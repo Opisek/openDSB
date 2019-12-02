@@ -38,7 +38,7 @@
 
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-        <com.kai_jan_57.opendsbmobile.widgets.TopProgressBar
+        <com.opisek.freedsb.widgets.TopProgressBar
             android:id="@+id/progressBar_content_loading"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:layout_width="match_parent"

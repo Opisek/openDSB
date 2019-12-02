@@ -28,17 +28,4 @@
         android:tintMode="src_in"
         android:contentDescription="@string/nav_item_add"
         android:onClick="addLoginButton"/>
-
-    <ImageButton
-        android:id="@+id/imageButton_edit"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:src="@drawable/ic_menu_edit"
-        android:tint="?attr/colorControlNormal"
-        android:tintMode="src_in"
-        android:contentDescription="@string/nav_item_edit"
-        android:onClick="editLoginsButton"/>
-
 </LinearLayout>

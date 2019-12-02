@@ -15,12 +15,12 @@
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
 
-    <com.kai_jan_57.opendsbmobile.widgets.ZoomableViewPager
+    <com.opisek.freedsb.widgets.ZoomableViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </com.kai_jan_57.opendsbmobile.widgets.ZoomableViewPager>
+    </com.opisek.freedsb.widgets.ZoomableViewPager>
 
     <LinearLayout
         android:id="@+id/overlayContainer"

@@ -10,6 +10,9 @@
 
     <dimen name="one_dp">1dp</dimen>
     <dimen name="text_size_section">18sp</dimen>
-    <dimen name="table_cell_width">100dip</dimen>
+    <dimen name="table_cell_width">50dip</dimen>
+    <dimen name="table_cell_width_narrow">30dip</dimen>
     <dimen name="table_cell_height">40dip</dimen>
+
+    <dimen name="header_height">5dip</dimen>
 </resources>
